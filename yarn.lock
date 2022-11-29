@@ -1347,6 +1347,11 @@
   resolved "https://registry.yarnpkg.com/@carbon/icon-helpers/-/icon-helpers-10.34.0.tgz#04b2957d07e0a98bb66c97c6b71430a955243887"
   integrity sha512-Ov9EBc1tR/DDrMI0pN1drj2jb27ISmYFBLdDji+aivVJkLPy8R/jikJOsOBgIq2kUjQJYNN199k2acHKjZdYIg==
 
+"@carbon/icon-helpers@^10.35.0-rc.0":
+  version "10.35.0-rc.0"
+  resolved "https://registry.yarnpkg.com/@carbon/icon-helpers/-/icon-helpers-10.35.0-rc.0.tgz#ff9768081b08c1e78525d5803b367c22251de878"
+  integrity sha512-G03pJZvfy395lSDzBvZkdJXFKRd7eXBGzkRGi1JoAqSMuVZYANFK+YJhks/FmWXRGkjo4bQjYmdHIPa1UL911A==
+
 "@carbon/icons-react@^10.35.0", "@carbon/icons-react@^10.49.0":
   version "10.49.0"
   resolved "https://registry.yarnpkg.com/@carbon/icons-react/-/icons-react-10.49.0.tgz#178f62fe2f5b343fa2d2034fb14203b01d44b894"
@@ -1356,12 +1361,12 @@
     "@carbon/telemetry" "0.1.0"
     prop-types "^15.7.2"
 
-"@carbon/icons-react@^11.7.0":
-  version "11.11.0"
-  resolved "https://registry.yarnpkg.com/@carbon/icons-react/-/icons-react-11.11.0.tgz#b6dd47dd8fd5e66e22226a54200867e3c2107d6b"
-  integrity sha512-Kbm/PHJCVdIByVCIlZ4f2KUdUPfQLurR5CoaZ18Sj0cwd7JqebBPCyhq/xVXlTwxBqAuCmos3vWM9+VLn/ixeQ==
+"@carbon/icons-react@^11.12.0-rc.0":
+  version "11.12.0-rc.0"
+  resolved "https://registry.yarnpkg.com/@carbon/icons-react/-/icons-react-11.12.0-rc.0.tgz#72e5a330db378cfb69f41c3b14c8cbaab7d168fe"
+  integrity sha512-lZsPqbtXe6aSaerIGOyA3zwuSKSJgJq1OaYppH3+hzOOrApllnTXaza+AdQ/PY/xby802RJ4dxO+glFztBJ9zQ==
   dependencies:
-    "@carbon/icon-helpers" "^10.34.0"
+    "@carbon/icon-helpers" "^10.35.0-rc.0"
     "@carbon/telemetry" "0.1.0"
     prop-types "^15.7.2"
 
@@ -1370,10 +1375,10 @@
   resolved "https://registry.yarnpkg.com/@carbon/icons/-/icons-10.48.0.tgz#a517812f42fc816ef9735409383111d8f23e7bff"
   integrity sha512-wLvTfQy4k/vF8oVH2T/esISogdyjWJ34KdlfD//A0bKa6YViJStnvyoJA8Pmi7XolVyKm5Cw1ho7CjV1TFBJSg==
 
-"@carbon/icons@^11.7.0":
-  version "11.11.0"
-  resolved "https://registry.yarnpkg.com/@carbon/icons/-/icons-11.11.0.tgz#e4998a2a631fceb6634d02f1cdd1754a26de09b9"
-  integrity sha512-mhAOFurvW8rVoUhqkjDeKMYILQF9UpZ7p/XWvlXUZMZ+tHvv4I9XDiHOLHYag2hMhPIFTdhl1z6ezIu6GDAjkg==
+"@carbon/icons@^11.12.0-rc.0":
+  version "11.12.0-rc.0"
+  resolved "https://registry.yarnpkg.com/@carbon/icons/-/icons-11.12.0-rc.0.tgz#b16350048dc9377e5e27eeca57cbfa5bb68d1da7"
+  integrity sha512-rO7kcuWmRB7vKaw0GUzAHnUwxUK7cImNr5KsEYYe/1kNBBCMpE0WEVEMBortwlAXlGsNnDzqifJku38FY8VWkg==
 
 "@carbon/import-once@^10.7.0":
   version "10.7.0"
@@ -1390,7 +1395,7 @@
   resolved "https://registry.yarnpkg.com/@carbon/motion/-/motion-10.29.0.tgz#1e78c70d396ad3b9363f7a0c7e36ce9bac3d5702"
   integrity sha512-b8Cc9vgMlkQfLQAwq9Zt1/UfsrtGcWQpf0kK5gCamAuSmNSFWYJSwqbY9MeodxM2xNfXrxFcEFwqwy/E7egxUw==
 
-"@carbon/pictograms-react@^11.14.0", "@carbon/pictograms-react@^11.31.0":
+"@carbon/pictograms-react@^11.14.0":
   version "11.34.0"
   resolved "https://registry.yarnpkg.com/@carbon/pictograms-react/-/pictograms-react-11.34.0.tgz#cd7ad063a2aa22aa41b42220434e08a0845beee8"
   integrity sha512-pO6Rvv8hh+IhRLj2gIXu8pf68opqtKEe2CuV+1w94mwci7bvP4A8ysAZuSbMk6W8D0+PdQhPydwj2upR4hOp+A==
@@ -1399,10 +1404,19 @@
     "@carbon/telemetry" "0.1.0"
     prop-types "^15.7.2"
 
-"@carbon/pictograms@^12.5.0":
-  version "12.8.0"
-  resolved "https://registry.yarnpkg.com/@carbon/pictograms/-/pictograms-12.8.0.tgz#1f0bad231bd82d79ee83fae6ccf08e9ad1356fc1"
-  integrity sha512-3Ome2FiqDjJQ6HUEgL4l0TXf5ou2L6t/qQVBq4okpSvAeBP7Lht8sPueCgfHTjdjtcFb23cNc+fMrU9mZsds8g==
+"@carbon/pictograms-react@^11.35.0-rc.0":
+  version "11.35.0-rc.0"
+  resolved "https://registry.yarnpkg.com/@carbon/pictograms-react/-/pictograms-react-11.35.0-rc.0.tgz#310d45c80918fe1237ab33793c4c62f90c67ffd4"
+  integrity sha512-SEK/hfCt1bpPi0/VOD6KJaNreqaqpzivrxmWm+crqscpslj24B5h0UNXK1qtjZxdQui5PGgUgz8CFBkYIbB2Bg==
+  dependencies:
+    "@carbon/icon-helpers" "^10.35.0-rc.0"
+    "@carbon/telemetry" "0.1.0"
+    prop-types "^15.7.2"
+
+"@carbon/pictograms@^12.9.0-rc.0":
+  version "12.9.0-rc.0"
+  resolved "https://registry.yarnpkg.com/@carbon/pictograms/-/pictograms-12.9.0-rc.0.tgz#9bf39d6c042343d0b2a7b116c5668d1648d4af97"
+  integrity sha512-41BFLpQH/xd2Ft8RYxAvM/UCAcGfFIy59ByawW14lFTeFHca4aLDK1mTYKjK35TXiIS6Te5VSAj+u9JEynHMew==
 
 "@carbon/telemetry@0.1.0":
   version "0.1.0"
